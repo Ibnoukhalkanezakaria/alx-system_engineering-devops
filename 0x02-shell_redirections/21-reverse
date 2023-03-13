@@ -1,0 +1,4 @@
+#!/bin/bash
+input="$1"
+output=$(echo "$input" | rev)
+echo "$output"
