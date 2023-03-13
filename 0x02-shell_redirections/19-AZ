@@ -1,5 +1,2 @@
 #!/bin/bash
-echo "Replace all characters 'A' and 'c' from input to 'Z' and 'e'."
-input="some text with A and c characters"
-output=$(echo "$input" | tr 'Ac' 'Ze')
-echo "Output: $output"
+tr "A" "Z" | tr "c" "e"

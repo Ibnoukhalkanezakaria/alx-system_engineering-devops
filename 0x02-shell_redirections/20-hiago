@@ -1,4 +1,2 @@
 #!/bin/bash
-input="$1"
-output=$(echo "$input" | tr -d 'Cc')
-echo "$output"
+tr -d "Cc"
